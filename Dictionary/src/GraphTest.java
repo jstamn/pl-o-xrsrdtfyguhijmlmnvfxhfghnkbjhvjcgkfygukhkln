@@ -9,12 +9,35 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+////////////////////////////////////////////////////////////////////////////
+//Semester:         CS400 Spring 2018
+//PROJECT:          P3 Dictionary Graph
+//FILES:            Graph.java
+//					GraphProcessor.java
+//					GraphTest.java
+//					WordProcessor.java
+//
+//USER:             tschmidt6@wisc.edu | Teryl Schmidt
+//					alsilverman3@wisc.edu | Avi Silverman
+//					jsoukup2@wisc.edu | Joe Soukup
+//					ssrivastav26@wisc.edu | Shashwat Srivastava
+//					jstamn@wisc.edu | Joshua Stamn
+//
+//
+//Instructor:       Deb Deppeler (deppeler@cs.wisc.edu)
+//Bugs:             no known bugs
+//
+//Due:				2018 Apr 16, 2018 GraohTest.java 
+////////////////////////////80 columns wide //////////////////////////////////
+
 /**
  * Junit test class to test class @see Graph that implements @see GraphADT interface
  *
  * @author sapan (sapan@cs.wisc.edu)
  */
 public class GraphTest {
+	
+	//FIXME: ADD TIMEOUTS
 
 	private GraphADT<String> graph;
 	
@@ -88,9 +111,9 @@ public class GraphTest {
 	@Test
 	public final void addVertexShouldNotAllowDuplicateVertexAddition() {
 		String vertex1 = this.graph.addVertex(vertices.get(0));
-		System.out.println("vertex1="+vertex1);
+//		System.out.println("vertex1="+vertex1);
 		String vertex2 = this.graph.addVertex(vertices.get(0));
-		System.out.println("vertex2="+vertex2);
+//		System.out.println("vertex2="+vertex2);
 		assertEquals("return value when adding duplicate vertex", null, vertex2);
 		
 		int verticesCount = 0;
