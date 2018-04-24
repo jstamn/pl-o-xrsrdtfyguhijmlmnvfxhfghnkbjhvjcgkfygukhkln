@@ -51,7 +51,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 
 
-public class BacketGUI extends Application {
+public class BracketGUI extends Application {
 	
 	static ObservableList<String> teamNames = FXCollections.observableArrayList(); //Got from TA's example
 	private int count = teamNames.size();
