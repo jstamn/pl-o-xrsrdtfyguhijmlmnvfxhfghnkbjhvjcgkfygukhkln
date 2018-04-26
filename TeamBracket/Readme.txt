@@ -1,5 +1,3 @@
-This is a backup file just incase anything goes wrong and we need something to turn in last second.
-
 Makefile - (couldn't figure out how to do this)
 -Also I couldn't add "teams00.txt" to Github just an empty file
 
