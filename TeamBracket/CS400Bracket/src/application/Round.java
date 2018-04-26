@@ -120,6 +120,7 @@ public class Round {
 	public String getThird(Challenger winner, Challenger second) {
 		ArrayList<Challenger> ThirdandFourth = new ArrayList<>();
 		Challenger third = new Challenger();
+		third.setName("TBD");
 		
 		// Puts Third and Fourth place into an arraylist
 		for (int i = 0; i < 4; i++) {
@@ -130,7 +131,9 @@ public class Round {
 		
 		//Compares them and gets third 
 		//If tie random chosen
-		third.setName(Play(ThirdandFourth.get(0), ThirdandFourth.get(1)).getName());
+		if (ThirdandFourth.size() >= 2 ) {
+			third.setName(Play(ThirdandFourth.get(0), ThirdandFourth.get(1)).getName());
+		}
 		
 		return third.getName();
 	}
