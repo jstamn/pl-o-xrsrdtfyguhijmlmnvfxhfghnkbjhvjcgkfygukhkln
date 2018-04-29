@@ -2,7 +2,7 @@ Makefile - works in src folder
 
 ex
 Schmidts-Air:src user$ ls
-Makefile	teams04.txt	teams16.txt
+Makefile	teams04.txt	teams16.txt teams00.txt
 application	teams01.txt	teams02.txt	teams08.txt	teams32.txt
 Schmidts-Air:src user$ make
 javac application/*.java
