@@ -1,29 +1,18 @@
-Makefile - (couldn't figure out how to do this)
+Makefile - works in src folder
+
+ex
+Schmidts-Air:src user$ ls
+Makefile	teams04.txt	teams16.txt
+application	teams01.txt	teams02.txt	teams08.txt	teams32.txt
+Schmidts-Air:src user$ make
+javac application/*.java
+Schmidts-Air:src user$ make teams02
+java application.Main teams02.txt > teams02.log
+Schmidts-Air:src user$ make teams16
+java application.Main teams16.txt > teams16.log
+Schmidts-Air:src user$ make clean
+\rm application/*.class
+Schmidts-Air:src user$ 
+
+
 -Also I couldn't add "teams00.txt" to Github just an empty file
-
-
-	javac *.java
-    
-teams00: 
-	java Main teams00.txt > teams00.log
-        
-teams01: 
-	java Main teams01.txt > teams01.log
-    
-teams02: 
-	java Main teams02.txt > teams02.log
-    
-teams04: 
-	java Main teams04.txt > teams04.log
-    
-teams08: 
-	java Main teams08.txt > teams08.log
-    
-teams16: 
-	java Main teams16.txt > teams16.log
-
-teams32: 
-	java Main teams32.txt > teams32.log
-    
-clean:
-	\rm *.class
