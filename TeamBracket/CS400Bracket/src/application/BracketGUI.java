@@ -89,7 +89,7 @@ public class BracketGUI extends Application {
 		Winner.getLabel().setAlignment(Pos.CENTER);
 		if (count == 1) {
 			Winner.setName(teamNames.get(0)); //If one team it is the winner
-		} else {
+		} else if (count >= 1){
 			Winner.setName("TBD"); //Otherwise winner has not been determined yet
 		}
 
