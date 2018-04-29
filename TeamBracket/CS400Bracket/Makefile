@@ -1,5 +1,7 @@
 make:
 	javac application/*.java
+teams00: 
+	java application.Main teams00.txt > teams00.log
 teams01: 
 	java application.Main teams01.txt > teams01.log
 teams02: 
