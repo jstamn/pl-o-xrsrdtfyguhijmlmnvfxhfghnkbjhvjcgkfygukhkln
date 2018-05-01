@@ -24,7 +24,7 @@ shows application or src folder and exectuable.jar as well as other image files
 Upload tournament.zip (this file should be in your project folder - not src folder) (Must repeat this step if anything 
 
 
-Makefile - works in src folder, just had to copy BracketGUI class to Main class
+Makefile - works in src folder, just had to copy BracketGUI class into Main class like in zip file
 
 ex
 Schmidts-Air:src user$ ls
