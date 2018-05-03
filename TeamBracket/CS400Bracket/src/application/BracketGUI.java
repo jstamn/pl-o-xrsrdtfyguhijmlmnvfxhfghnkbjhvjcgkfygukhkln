@@ -310,7 +310,7 @@ public class BracketGUI extends Application {
 
 	public static void main(String[] args) {
 
-		String fileName = "teams32.txt" ; // Testing just set to filename to "teams04.txt" or "teams32.txt"
+		String fileName = "teams16.txt" ; // Testing just set to filename to "teams04.txt" or "teams32.txt"
 		File inputFile = null;
 		Scanner sc = null;
 
